@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="Index.html"><img src="Images\logo.png" width="200px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="Cart.html"><img src="Images\shopping-cart.png" width="30px" height="30px"></a>
+            <img src="Images\menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+<hr>
+    <div class="container">
+        <h2 class="title">About Us </h2>
+        <p>
+            What is SimpliWear? <br><br>
+
+            SimpliWear is an innovative e-commerce web design that focuses on simplicity, functionality, and
+            user-friendliness. Our platform is tailored to meet the needs of modern consumers who seek convenience
+            without sacrificing quality or variety. <br> <br>
+            SimpliWear is more than just an e-commerce platform—it's a commitment to simplifying your shopping
+            experience and providing unparalleled convenience and satisfaction. Whether you're a seasoned online shopper
+            or new to the world of e-commerce, SimpliWear is here to make your shopping journey effortless and
+            enjoyable.
+            <br><br>
+            Experience the simplicity of online shopping with SimpliWear today. Happy shopping!
+        </p>
+    </div>
+    <br>
+    <hr>
+    <div class="container">
+        <h2 class="title"> Meet the Group</h2>
+    </div>
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+
+
+                <div class="col-3">
+                    <div class="rating">
+                    </div>
+                    <img src="Images\345836870_677795344154054_4164506284980405597_n (2).jpg">
+                    <h3>Nicco Necio</h3>
+                </div>
+                <div class="col-3">
+                    <div class="rating">
+                    </div>
+                    <img src="Images\428883011_420589757378789_4644549563539840679_n.jpg">
+                    <h3>Justine Monedero</h3>
+                </div>
+                <div class="col-3">
+                    <div class="rating">
+                    </div>
+                    <img src="Images\430192323_1111431396864785_7710968758153322774_n.jpg">
+                    <h3>Christine Fermejo</h3>
+                </div>
+
+
+
+                <div class="col-3">
+                    <div class="rating">
+                    </div>
+                    <img src="Images\356648870_7315537165128264_2398026090131859953_n.jpg">
+                    <h3>Shan Javen Aban</h3>
+                </div>
+
+                <div class="col-3">
+                    <div class="rating">
+                    </div>
+                    <img src="Images\426742636_227325757125494_242898909006391219_n.jpg">
+                    <h3>Randy Ramales</h3>
+                </div>
+
+                <div class="col-3">
+                    <div class="rating">
+                    </div>
+                    <img src="Images\429642546_695534062656895_4567238794765986381_n.jpg">
+                    <h3>Wilfred Medenilla</h3>
+                </div>
+
+                <div class="col-3">
+                    <div class="rating">
+                    </div>
+                    <img src="Images\426211793_1073280573957287_8853707818740581609_n.jpg">
+                    <h3>Stephanie Villarante</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+    <!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <a href="https://play.google.com/store/games?hl=en&gl=US">
+                            <img src="Images\play-store.png"></a>
+                            <a href="https://www.apple.com/ph/app-store/">
+                            <img src="Images\app-store.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images\logo.png" width="200px">
+                    <p>Our Puporse Is To Sustainably Make the Fashion at Beauty of Style to the Many </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Simpliwear | Ecommerce Website Design Project</p>
+        </div>
+    </div>
+    <!--js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
